@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        CALCULATOR
+        <div class="themes">
+          <button class="theme1 col">Theme 1</button>
+          <button class="theme2 col">Theme 2</button>
+          <button class="theme3 col">Theme 3</button>
+        </div>
+      </header>
+      <section class="section-1">
+        <div class="answer"></div>
+      </section>
+      <section class="section-2 motherboard">
+        <table class="table">
+          <tbody class="table-body">
+            <!-- first row -->
+            <tr class="row">
+              <td><button class="btn btn-7">7</button></td>
+              <td><button class="btn btn-8">8</button></td>
+              <td><button class="btn btn-9">9</button></td>
+              <td><button class="btn btn-del">Del</button></td>
+            </tr>
+            <!--second row-->
+            <tr class="row">
+              <td><button class="btn btn-4">4</button></td>
+              <td><button class="btn btn-5">5</button></td>
+              <td><button class="btn btn-6">6</button></td>
+              <td><button class="btn btn-add">+</button></td>
+            </tr>
+            <!-- third row -->
+            <tr class="row">
+              <td><button class="btn btn-1">1</button></td>
+              <td><button class="btn btn-2">2</button></td>
+              <td><button class="btn btn-3">3</button></td>
+              <td><button class="btn btn-sub">-</button></td>
+            </tr>
+            <!-- fourth row -->
+            <tr class="row">
+              <td><button class="btn btn-.">.</button></td>
+              <td><button class="btn btn-0">0</button></td>
+              <td><button class="btn btn-div">/</button></td>
+              <td><button class="btn btn-mul">x</button></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="lastRow">
+          <button class="btn out reset-btn">Reset</button>
+          <button class="btn out equal-btn">=</button>
+        </div>
+      </section>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
